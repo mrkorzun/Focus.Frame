@@ -51,6 +51,10 @@
   stroke: var(--white);
 }
 
+.logo {
+  display: flex;
+}
+
 .nav-logo-icon {
   fill: var(--white);
 }
