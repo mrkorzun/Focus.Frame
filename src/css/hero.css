@@ -1,0 +1,143 @@
+/* === HERO CONTENT === */
+
+.hero-section {
+  position: relative;
+  z-index: 1;
+
+  background-color: #1d1d1d;
+  border-radius: 30px;
+
+  margin-top: 20px;
+  padding: 40px 20px 0;
+}
+
+.hero-title {
+  max-width: 290px;
+  margin-bottom: 20px;
+
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+}
+
+.color-span {
+  font-style: italic;
+  font-weight: 400;
+  color: var(--brown);
+}
+
+.hero-text {
+  max-width: 290px;
+  margin-bottom: 40px;
+}
+
+/* === STUDENT === */
+
+.hero-content-section {
+  display: flex;
+  margin-bottom: 31px;
+}
+
+.hero-student-list {
+  display: flex;
+  position: relative;
+
+  margin-bottom: 4px;
+}
+
+.hero-student-list li:nth-child(1) {
+  z-index: 3;
+}
+.hero-student-list li:nth-child(2) {
+  z-index: 2;
+}
+.hero-student-list li:nth-child(3) {
+  z-index: 1;
+}
+
+.hero-student-img {
+  width: 44px;
+  height: 44px;
+
+  border-radius: 50%;
+  object-fit: cover;
+
+  outline: 2px solid #1d1d1d;
+}
+
+.hero-student-list li {
+  margin-right: -12px; /* поиграй с этим значением */
+}
+
+/* === HAPPY STUDENT === */
+
+.hero-student {
+  margin-right: 40px;
+}
+
+.hero-happy-student {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.hero-happy-student-text {
+  max-width: 67px;
+}
+
+.hero-happy-student-svg {
+  margin-top: 3px;
+  fill: var(--white);
+}
+
+/* === REVIEWS === */
+
+.hero-reviews-section {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-reviews-star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 44px;
+  height: 44px;
+
+  margin-right: 12px;
+
+  border-radius: 50%;
+  background-color: var(--brown);
+}
+
+.hero-reviews-star-svg {
+    fill: transparent;
+    stroke:#1d1d1d;
+    stroke-width: 2px;
+}
+
+.hero-reviews-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-reviews-text {
+    margin: 4px 0;
+  letter-spacing: -0.04em;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.hero-reviews-text-numbers {
+  font-weight: 500;
+  font-size: 16px;
+
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+}
+
+.hero-img {
+  margin-left: auto;
+  margin-right: auto;
+}
