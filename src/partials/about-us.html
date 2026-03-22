@@ -1,7 +1,31 @@
-<section class="container">
+<section class="container about-us">
     <h2 class="about-us-title">About <span class="color-about-us-span">Us</span></h2>
     <div class="about-us-wrapper">
-    <img class="about-us-img" src="../img/jpeg/about_us/about-mob.jpg" alt="camera">
+        <picture>
+          <source
+            srcset="
+              ../img/jpeg/about_us/about-desk@2x.jpg 2x,
+              ../img/jpeg/about_us/about-desk.jpg    1x
+            "
+            media="(min-width:1440px)"
+          />
+          <source
+            srcset="
+              ../img/jpeg/about_us/about-tablet@2x.jpg 2x,
+              ../img/jpeg/about_us/about-tablet.jpg 1x
+            "
+            media="(min-width:768px)"
+          />
+          <img
+            srcset="../img/jpeg/about_us/about-mob@2x.jpg 2x"
+            src="../img/jpeg/about_us/about-mob.jpg"
+            alt="camera"
+            width="335px"
+            height="209px"
+            class="about-us-img"
+            loading="lazy"
+          />
+        </picture>
     <p class="about-us-text">Our photography school is designed to teach you everything you need to know about this magical art. Regardless of your experience or skill level, we offer a wide range of courses to suit your needs and interests. Our teaching team consists of experienced photographers who have many years of experience in this field. They strive not only to share their knowledge, but also to inspire you to develop and express your unique creativity.</p>
     <p class="about-us-text-second">Our courses cover a wide range of topics, from the basics of photography and equipment use to professional image processing and creating impressive compositions. You will have the opportunity to learn the technical aspects of photography, discover your own style and develop your own visual language.</p>
     </div>
